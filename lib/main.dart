@@ -28,9 +28,15 @@ class _PokemonPageState extends State<PokemonPage> {
       child: Column(
         children: List.generate(
           pokemons.length, 
-          (index) => Text(pokemons[index]["name"])
+          (index) => Card(
+            margin: EdgeInsets.all(8),
+            child: Padding(
+              padding: EdgeInsets.all(12),
+              child: Text(pokemons[index]["name"]),
+            ),
           ),
         ),
+      ),
     ),
   );
 }
