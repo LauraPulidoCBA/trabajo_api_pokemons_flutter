@@ -15,13 +15,22 @@ class PokemonPage extends StatefulWidget {
 
 
 class _PokemonPageState extends State<PokemonPage> {
+  List pokemons = [
+    {"name": "Pikachu"},
+    {"name": "Charmander"},
+    {"name": "Bulbasaur"},
+  ];
+  
   @override
   Widget build(BuildContext context) => Scaffold(
     appBar: AppBar(title: Text("Lista de Pokemons")),
     body: SingleChildScrollView(
       child: Column(
-        children: []
-      ),
+        children: List.generate(
+          pokemons.length, 
+          (index) => Text(pokemons[index]["name"])
+          ),
+        ),
     ),
   );
 }
