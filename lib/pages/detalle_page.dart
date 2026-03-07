@@ -15,3 +15,6 @@ body: Column(children: [ Text(widget.nombre.toUpperCase()) ])
 
 Dart
 Image.network("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${widget.id}.png")
+
+Dart
+Text("Altura: ${detalle["height"]}"), Text("Peso: ${detalle["weight"]}")
