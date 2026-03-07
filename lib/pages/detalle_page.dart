@@ -8,7 +8,6 @@ class DetallePage extends StatefulWidget {
 Dart
 onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => DetallePage(nombre: name, id: id)))
 
-
 Dart
 body: Column(children: [ Text(widget.nombre.toUpperCase()) ])
 
