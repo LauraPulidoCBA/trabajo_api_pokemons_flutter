@@ -16,3 +16,4 @@ Image.network("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/
 
 Dart
 Text("Altura: ${detalle["height"]}"), Text("Peso: ${detalle["weight"]}")
+
