@@ -5,7 +5,6 @@ class DetallePage extends StatefulWidget {
   DetallePage({required this.nombre, required this.id});
   @override _DetallePageState createState() => _DetallePageState();
 }
-
 Dart
 onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => DetallePage(nombre: name, id: id)))
 
