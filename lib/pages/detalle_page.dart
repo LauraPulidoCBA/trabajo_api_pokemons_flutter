@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 class DetallePage extends StatefulWidget {
   final String nombre;
   final int id;
@@ -27,7 +28,7 @@ class _DetallePageState extends State<DetallePage> {
             tag: "pokemon${widget.id}",
             child: Image.network(
               "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${widget.id}.png",
-              width: 250,
+              width:  250,
               height: 250,
             ),
           ),
