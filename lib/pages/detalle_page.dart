@@ -1,3 +1,4 @@
+
  import 'package:flutter/material.dart';
 import '../pokemon_service.dart';
 
@@ -83,5 +84,4 @@ class _DetallePageState extends State<DetallePage> {
             ),
     );
   }
-}
-
+} 
